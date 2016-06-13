@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		797A91091D0E84FC00A18741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A91081D0E84FC00A18741 /* main.m */; };
+		797A910C1D0E84FC00A18741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A910B1D0E84FC00A18741 /* AppDelegate.m */; };
+		797A910F1D0E84FC00A18741 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A910E1D0E84FC00A18741 /* ViewController.m */; };
+		797A91121D0E84FC00A18741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797A91101D0E84FC00A18741 /* Main.storyboard */; };
+		797A91141D0E84FC00A18741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797A91131D0E84FC00A18741 /* Assets.xcassets */; };
+		797A91171D0E84FC00A18741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797A91151D0E84FC00A18741 /* LaunchScreen.storyboard */; };
+		797A91221D0E84FC00A18741 /* HJMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A91211D0E84FC00A18741 /* HJMusicPlayerTests.m */; };
+		797A912D1D0E84FC00A18741 /* HJMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A912C1D0E84FC00A18741 /* HJMusicPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		797A911E1D0E84FC00A18741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797A90FC1D0E84FC00A18741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797A91031D0E84FC00A18741;
+			remoteInfo = HJMusicPlayer;
+		};
+		797A91291D0E84FC00A18741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797A90FC1D0E84FC00A18741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797A91031D0E84FC00A18741;
+			remoteInfo = HJMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		797A91041D0E84FC00A18741 /* HJMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		797A91081D0E84FC00A18741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		797A910A1D0E84FC00A18741 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		797A910B1D0E84FC00A18741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		797A910D1D0E84FC00A18741 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		797A910E1D0E84FC00A18741 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		797A91111D0E84FC00A18741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797A91131D0E84FC00A18741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		797A91161D0E84FC00A18741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		797A91181D0E84FC00A18741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797A911D1D0E84FC00A18741 /* HJMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		797A91211D0E84FC00A18741 /* HJMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJMusicPlayerTests.m; sourceTree = "<group>"; };
+		797A91231D0E84FC00A18741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797A91281D0E84FC00A18741 /* HJMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		797A912C1D0E84FC00A18741 /* HJMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJMusicPlayerUITests.m; sourceTree = "<group>"; };
+		797A912E1D0E84FC00A18741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797A91011D0E84FC00A18741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A911A1D0E84FC00A18741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A91251D0E84FC00A18741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797A90FB1D0E84FC00A18741 = {
+			isa = PBXGroup;
+			children = (
+				797A91061D0E84FC00A18741 /* HJMusicPlayer */,
+				797A91201D0E84FC00A18741 /* HJMusicPlayerTests */,
+				797A912B1D0E84FC00A18741 /* HJMusicPlayerUITests */,
+				797A91051D0E84FC00A18741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		797A91051D0E84FC00A18741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797A91041D0E84FC00A18741 /* HJMusicPlayer.app */,
+				797A911D1D0E84FC00A18741 /* HJMusicPlayerTests.xctest */,
+				797A91281D0E84FC00A18741 /* HJMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797A91061D0E84FC00A18741 /* HJMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				797A910A1D0E84FC00A18741 /* AppDelegate.h */,
+				797A910B1D0E84FC00A18741 /* AppDelegate.m */,
+				797A910D1D0E84FC00A18741 /* ViewController.h */,
+				797A910E1D0E84FC00A18741 /* ViewController.m */,
+				797A91101D0E84FC00A18741 /* Main.storyboard */,
+				797A91131D0E84FC00A18741 /* Assets.xcassets */,
+				797A91151D0E84FC00A18741 /* LaunchScreen.storyboard */,
+				797A91181D0E84FC00A18741 /* Info.plist */,
+				797A91071D0E84FC00A18741 /* Supporting Files */,
+			);
+			path = HJMusicPlayer;
+			sourceTree = "<group>";
+		};
+		797A91071D0E84FC00A18741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				797A91081D0E84FC00A18741 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		797A91201D0E84FC00A18741 /* HJMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				797A91211D0E84FC00A18741 /* HJMusicPlayerTests.m */,
+				797A91231D0E84FC00A18741 /* Info.plist */,
+			);
+			path = HJMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		797A912B1D0E84FC00A18741 /* HJMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				797A912C1D0E84FC00A18741 /* HJMusicPlayerUITests.m */,
+				797A912E1D0E84FC00A18741 /* Info.plist */,
+			);
+			path = HJMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797A91031D0E84FC00A18741 /* HJMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797A91311D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayer" */;
+			buildPhases = (
+				797A91001D0E84FC00A18741 /* Sources */,
+				797A91011D0E84FC00A18741 /* Frameworks */,
+				797A91021D0E84FC00A18741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJMusicPlayer;
+			productName = HJMusicPlayer;
+			productReference = 797A91041D0E84FC00A18741 /* HJMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		797A911C1D0E84FC00A18741 /* HJMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797A91341D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayerTests" */;
+			buildPhases = (
+				797A91191D0E84FC00A18741 /* Sources */,
+				797A911A1D0E84FC00A18741 /* Frameworks */,
+				797A911B1D0E84FC00A18741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797A911F1D0E84FC00A18741 /* PBXTargetDependency */,
+			);
+			name = HJMusicPlayerTests;
+			productName = HJMusicPlayerTests;
+			productReference = 797A911D1D0E84FC00A18741 /* HJMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		797A91271D0E84FC00A18741 /* HJMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797A91371D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayerUITests" */;
+			buildPhases = (
+				797A91241D0E84FC00A18741 /* Sources */,
+				797A91251D0E84FC00A18741 /* Frameworks */,
+				797A91261D0E84FC00A18741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				797A912A1D0E84FC00A18741 /* PBXTargetDependency */,
+			);
+			name = HJMusicPlayerUITests;
+			productName = HJMusicPlayerUITests;
+			productReference = 797A91281D0E84FC00A18741 /* HJMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797A90FC1D0E84FC00A18741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hejun;
+				TargetAttributes = {
+					797A91031D0E84FC00A18741 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					797A911C1D0E84FC00A18741 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 797A91031D0E84FC00A18741;
+					};
+					797A91271D0E84FC00A18741 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 797A91031D0E84FC00A18741;
+					};
+				};
+			};
+			buildConfigurationList = 797A90FF1D0E84FC00A18741 /* Build configuration list for PBXProject "HJMusicPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 797A90FB1D0E84FC00A18741;
+			productRefGroup = 797A91051D0E84FC00A18741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797A91031D0E84FC00A18741 /* HJMusicPlayer */,
+				797A911C1D0E84FC00A18741 /* HJMusicPlayerTests */,
+				797A91271D0E84FC00A18741 /* HJMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797A91021D0E84FC00A18741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797A91171D0E84FC00A18741 /* LaunchScreen.storyboard in Resources */,
+				797A91141D0E84FC00A18741 /* Assets.xcassets in Resources */,
+				797A91121D0E84FC00A18741 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A911B1D0E84FC00A18741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A91261D0E84FC00A18741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797A91001D0E84FC00A18741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797A910F1D0E84FC00A18741 /* ViewController.m in Sources */,
+				797A910C1D0E84FC00A18741 /* AppDelegate.m in Sources */,
+				797A91091D0E84FC00A18741 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A91191D0E84FC00A18741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797A91221D0E84FC00A18741 /* HJMusicPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797A91241D0E84FC00A18741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797A912D1D0E84FC00A18741 /* HJMusicPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		797A911F1D0E84FC00A18741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797A91031D0E84FC00A18741 /* HJMusicPlayer */;
+			targetProxy = 797A911E1D0E84FC00A18741 /* PBXContainerItemProxy */;
+		};
+		797A912A1D0E84FC00A18741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797A91031D0E84FC00A18741 /* HJMusicPlayer */;
+			targetProxy = 797A91291D0E84FC00A18741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		797A91101D0E84FC00A18741 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797A91111D0E84FC00A18741 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		797A91151D0E84FC00A18741 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797A91161D0E84FC00A18741 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797A912F1D0E84FC00A18741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		797A91301D0E84FC00A18741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797A91321D0E84FC00A18741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		797A91331D0E84FC00A18741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		797A91351D0E84FC00A18741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJMusicPlayer.app/HJMusicPlayer";
+			};
+			name = Debug;
+		};
+		797A91361D0E84FC00A18741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJMusicPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJMusicPlayer.app/HJMusicPlayer";
+			};
+			name = Release;
+		};
+		797A91381D0E84FC00A18741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJMusicPlayer;
+			};
+			name = Debug;
+		};
+		797A91391D0E84FC00A18741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797A90FF1D0E84FC00A18741 /* Build configuration list for PBXProject "HJMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797A912F1D0E84FC00A18741 /* Debug */,
+				797A91301D0E84FC00A18741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797A91311D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797A91321D0E84FC00A18741 /* Debug */,
+				797A91331D0E84FC00A18741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		797A91341D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797A91351D0E84FC00A18741 /* Debug */,
+				797A91361D0E84FC00A18741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		797A91371D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797A91381D0E84FC00A18741 /* Debug */,
+				797A91391D0E84FC00A18741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 797A90FC1D0E84FC00A18741 /* Project object */;
+}
