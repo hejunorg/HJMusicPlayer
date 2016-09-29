@@ -1,0 +1,32 @@
+//
+//  HJMusicPlayer.pch
+//  HJMusicPlayer
+//
+//  Created by HeJun<mail@teamleader.cn> on 9/29/16.
+//  Copyright © 2016 TeamLeader<https://www.teamleader.cn>. All rights reserved.
+//
+
+#ifndef HJMusicPlayer_pch
+#define HJMusicPlayer_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define APP_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define APP_BUILD_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+#define SYSTEM_VERSION [[UIDevice currentDevice] systemVersion]
+
+#ifdef HJLOG
+	#ifndef HJLOG
+		#define HJLOG(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+	#endif
+#else
+	#ifndef HJLOG
+		#define HJLOG(...)
+	#endif
+#endif
+
+#endif /* HJMusicPlayer_pch */

@@ -15,6 +15,8 @@
 		797A91171D0E84FC00A18741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797A91151D0E84FC00A18741 /* LaunchScreen.storyboard */; };
 		797A91221D0E84FC00A18741 /* HJMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A91211D0E84FC00A18741 /* HJMusicPlayerTests.m */; };
 		797A912D1D0E84FC00A18741 /* HJMusicPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A912C1D0E84FC00A18741 /* HJMusicPlayerUITests.m */; };
+		79D39AA31D9D12F9000DB7D1 /* HJMusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D39A9A1D9D12F9000DB7D1 /* HJMusicPlayerViewController.m */; };
+		79D39AA41D9D12F9000DB7D1 /* HJPlayListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D39AA01D9D12F9000DB7D1 /* HJPlayListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		797A91281D0E84FC00A18741 /* HJMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		797A912C1D0E84FC00A18741 /* HJMusicPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJMusicPlayerUITests.m; sourceTree = "<group>"; };
 		797A912E1D0E84FC00A18741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D39A991D9D12F9000DB7D1 /* HJMusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMusicPlayerViewController.h; sourceTree = "<group>"; };
+		79D39A9A1D9D12F9000DB7D1 /* HJMusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMusicPlayerViewController.m; sourceTree = "<group>"; };
+		79D39A9F1D9D12F9000DB7D1 /* HJPlayListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPlayListViewController.h; sourceTree = "<group>"; };
+		79D39AA01D9D12F9000DB7D1 /* HJPlayListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPlayListViewController.m; sourceTree = "<group>"; };
+		79D39AA51D9D137A000DB7D1 /* HJMusicPlayer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJMusicPlayer.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		797A91061D0E84FC00A18741 /* HJMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				79D39A961D9D12F9000DB7D1 /* Classes */,
 				797A910A1D0E84FC00A18741 /* AppDelegate.h */,
 				797A910B1D0E84FC00A18741 /* AppDelegate.m */,
 				797A910D1D0E84FC00A18741 /* ViewController.h */,
@@ -109,6 +117,7 @@
 				797A91131D0E84FC00A18741 /* Assets.xcassets */,
 				797A91151D0E84FC00A18741 /* LaunchScreen.storyboard */,
 				797A91181D0E84FC00A18741 /* Info.plist */,
+				79D39AA51D9D137A000DB7D1 /* HJMusicPlayer.pch */,
 				797A91071D0E84FC00A18741 /* Supporting Files */,
 			);
 			path = HJMusicPlayer;
@@ -138,6 +147,81 @@
 				797A912E1D0E84FC00A18741 /* Info.plist */,
 			);
 			path = HJMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		79D39A961D9D12F9000DB7D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79D39A971D9D12F9000DB7D1 /* MusicPlayer */,
+				79D39A9D1D9D12F9000DB7D1 /* PlayList */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79D39A971D9D12F9000DB7D1 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				79D39A981D9D12F9000DB7D1 /* Controller */,
+				79D39A9B1D9D12F9000DB7D1 /* Model */,
+				79D39A9C1D9D12F9000DB7D1 /* View */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		79D39A981D9D12F9000DB7D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79D39A991D9D12F9000DB7D1 /* HJMusicPlayerViewController.h */,
+				79D39A9A1D9D12F9000DB7D1 /* HJMusicPlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79D39A9B1D9D12F9000DB7D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79D39A9C1D9D12F9000DB7D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79D39A9D1D9D12F9000DB7D1 /* PlayList */ = {
+			isa = PBXGroup;
+			children = (
+				79D39A9E1D9D12F9000DB7D1 /* Controller */,
+				79D39AA11D9D12F9000DB7D1 /* Model */,
+				79D39AA21D9D12F9000DB7D1 /* View */,
+			);
+			path = PlayList;
+			sourceTree = "<group>";
+		};
+		79D39A9E1D9D12F9000DB7D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79D39A9F1D9D12F9000DB7D1 /* HJPlayListViewController.h */,
+				79D39AA01D9D12F9000DB7D1 /* HJPlayListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79D39AA11D9D12F9000DB7D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79D39AA21D9D12F9000DB7D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +286,13 @@
 		797A90FC1D0E84FC00A18741 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HJ;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = hejun;
+				ORGANIZATIONNAME = "TeamLeader<https://www.teamleader.cn>";
 				TargetAttributes = {
 					797A91031D0E84FC00A18741 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UVTAS8R4A5;
 					};
 					797A911C1D0E84FC00A18741 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -271,8 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				797A910F1D0E84FC00A18741 /* ViewController.m in Sources */,
+				79D39AA41D9D12F9000DB7D1 /* HJPlayListViewController.m in Sources */,
 				797A910C1D0E84FC00A18741 /* AppDelegate.m in Sources */,
 				797A91091D0E84FC00A18741 /* main.m in Sources */,
+				79D39AA31D9D12F9000DB7D1 /* HJMusicPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +501,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UVTAS8R4A5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJMusicPlayer/HJMusicPlayer.pch";
 				INFOPLIST_FILE = HJMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayer;
@@ -424,6 +514,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UVTAS8R4A5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJMusicPlayer/HJMusicPlayer.pch";
 				INFOPLIST_FILE = HJMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.hejun.HJMusicPlayer;
@@ -496,6 +588,7 @@
 				797A91331D0E84FC00A18741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		797A91341D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +597,7 @@
 				797A91361D0E84FC00A18741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		797A91371D0E84FC00A18741 /* Build configuration list for PBXNativeTarget "HJMusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +606,7 @@
 				797A91391D0E84FC00A18741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  HJMusicPlayer
 //
-//  Created by hejun on 6/13/16.
-//  Copyright © 2016 hejun. All rights reserved.
+//  Created by HeJun<mail@teamleader.cn> on 6/13/16.
+//  Copyright © 2016 TeamLeader<https://www.teamleader.cn>. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "HJPlayListViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Override point for customization after application launch.
+	
+	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+	self.window.backgroundColor = [UIColor whiteColor];
+	
+	HJPlayListViewController *playlistVc = [HJPlayListViewController new];
+	UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:playlistVc];
+	self.window.rootViewController = nav;
+	[self.window makeKeyAndVisible];
+	
 	return YES;
 }
 
